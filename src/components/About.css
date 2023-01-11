@@ -1,0 +1,120 @@
+
+#about h1{
+  text-align: center;
+}
+.about_container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 35% 50% ;
+    gap: 15%;
+}
+
+.about_me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--colour-primary),transparent);
+    display: grid;
+    place-items: center;
+    
+}
+
+.about_me_img{
+    height: 100%;
+    place-items: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform-origin: rotate(10deg);
+    transition: all 500ms ease;
+}
+.about_me_img:hover{
+    transform: rotate(10deg);
+}
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about_card{
+    background: var(--blue-Varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about_card:hover{
+    background: transparent;
+    border-color: var(--colour-primary-varient);
+    cursor: default;
+}
+
+.about_icon{
+    color: var(--colour-primary);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.about_card h5{
+    font-size: 0.95rem;
+}
+
+
+.about_card small{
+    font-size: 0.9rem;
+    color: var(--colour-light);
+}
+
+.about_content p{
+    margin: 2rem 0.2rem;
+    color:var(--colour-light);
+}
+
+/* ---------------------- Media query-------------------*/
+
+
+
+@media screen and (max-width: 1024px)
+{
+  #about{
+    height: auto;
+  }
+ 
+  .about_me_img{
+    width: 100%;
+  }
+
+  .about_container{
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about_me{
+    width: 80%;
+    margin: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 600px)
+{
+  #about{
+    height: auto;
+  }
+  .about_me{
+    width: 100%;
+    margin: 0 auto 3rem;
+  }
+
+  .about_cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about_content{
+    text-align: center;
+  }
+}
+

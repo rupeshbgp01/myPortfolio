@@ -1,0 +1,38 @@
+footer{
+    padding: 2rem;
+    background-color: var(--blue-Varient);
+    text-align: center;
+    
+}
+
+.nav_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.nav_link a {
+    padding: 1.2rem;
+    text-decoration: none;
+}
+
+.footer_social a{
+    padding: 10px;
+    font-size: 1.6rem;
+}
+.copyright{
+    letter-spacing: 0.2rem;
+}
+@media screen and (max-width: 1024px)
+{
+  footer{
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+    footer{
+        margin-bottom: 5rem;
+      }
+}

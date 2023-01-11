@@ -1,0 +1,64 @@
+
+
+nav{
+    background-color: rgba(0,0,0,0.3);
+    width: max-content;
+    padding: 0.7rem 0.7rem;
+    margin-left: 1rem;
+    z-index: 2;
+    position: fixed;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 4rem;
+    backdrop-filter: blur(15px);
+    vertical-align: middle;
+    box-shadow: 1px 5px 7px white;
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--colour-light);
+    font-size: 1.9rem;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.3);
+}
+nav a.active{
+    background: var(--blue);
+    color: var(--colour-white);
+}
+
+/* ---------------------- Media query-------------------*/
+
+
+
+@media screen and (max-width: 1024px)
+{
+  nav{
+    flex-direction: row;
+    bottom: 0rem;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+    nav{
+        flex-direction: row;
+        bottom: 0rem;
+        width: 100%;
+        justify-content: center;
+        height: fit-content;
+        border-radius: 0;
+        margin: 0;
+      }
+}

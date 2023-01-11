@@ -1,0 +1,15 @@
+
+.skill_container{
+    border:1px solid var(--colour-primary);
+    border-radius:1.2rem;
+}
+
+.skill_container:hover{
+    background-color: var(--blue);
+    transform: scale(1.2);
+}
+.icon{
+    color: var(--colour-primary);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
