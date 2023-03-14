@@ -2,17 +2,21 @@ footer{
     padding: 2rem;
     background-color: var(--blue-Varient);
     text-align: center;
-    
+    width: 100%;
+}
+.footer__heading{
+    font-size: 26px;
 }
 
 .nav_link{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+    gap: 0.2rem;
+    padding: 5px;
 }
 .nav_link a {
-    padding: 1.2rem;
+    padding: 0.2rem;
     text-decoration: none;
 }
 

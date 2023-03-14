@@ -3,8 +3,9 @@
     flex-direction: row;
     gap: 6rem;
     overflow: hidden;
-    background-color: #6ACFC7;
+    background-color: #0b4637;
     border-radius: 0 0 8rem 8rem;
+    height: max-content;
 }
 
 .header_info{
@@ -22,13 +23,14 @@ header{
 .BTN{
     margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
     justify-content: center;
+    margin :auto;
 }
 
 .my_img{
    margin-bottom: 8rem;
-    width: 50%;
+    width: 35%;
 }
 .my_img img{
     width: 90%;
@@ -81,6 +83,9 @@ header{
         gap: 2rem;
         top: 1rem;
         overflow: hidden;
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
         
     }
     header{
@@ -96,7 +101,16 @@ header{
     .my_img img:hover{
         transform: none;
     }
-    
+    .BTN{
+        margin-top: 1rem;
+        padding: 0rem;
+        font-size: 15px;
+        width: fit-content;
+        justify-content: space-around;
+    }
+    .social_media{
+        margin-top: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 600px)

@@ -3,7 +3,7 @@ import './Header.css'
 import BTN from './BTN'
 import my_img from '../images/rupesh3.jpeg'
 import SOIALMEDIA from './SOCIAlMEDIA';
-import { AiOutlineDown } from "react-icons/ai"
+
 
 function Header() {
     return (

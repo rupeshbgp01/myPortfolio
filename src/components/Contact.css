@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 60%;
     gap: 10%;
+    height: max-content;
 }
 .contact_options{
     display: flex;
@@ -50,7 +51,7 @@ input,textarea{
     height: auto;
 }
   .container{
-    width: 86%;
+    width: 90%;
   }
   .contact_container{
     grid-template-columns: 1fr;
@@ -66,7 +67,7 @@ input,textarea{
         height:auto;
     }
   .container{
-    width: 60%;
+    width: 90%;
     
   }
   .contact_container{

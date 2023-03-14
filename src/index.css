@@ -7,17 +7,11 @@
   box-sizing: border-box;
 }
 
-/* :root{
-  --blue : #1f1f38;
-  --blue-Varient: #2c2c6c;
-  --colour-primary: #4db5ff;
-  --colour-primary-varient: rgba(77,181,255,0.4);
-  --colour-white:#fff;
-  --colour-light:rgba(255,255,255,0.6);
-} */
+
 :root{
   --blue : #0C1A1A;
-  --blue-Varient: #00ABE4;
+  
+  --blue-Varient:#0b4637;
   --colour-primary: #DDD0C8;
   --colour-primary-varient: #cac0b3;
   --colour-white:#fff;
@@ -30,7 +24,7 @@ body{
   color: var(--colour-white);
   background: var(--blue) ;
   line-height: 1.7;
-  background-image: url(./components/images/bg-texture.png);
+  /* background-image: url(./components/images/bg-texture.png); */
 }
 
 html{
@@ -44,6 +38,7 @@ html{
 .container{
   width: 75%;
   margin: 0 auto;
+  height: max-content;
 }
 
 h1,h2,h3,h4,h5{
@@ -113,7 +108,7 @@ img{
 @media screen and (max-width: 600px)
 {
   .container{
-    width: 86%;
+    width: 90%;
   }
 
   section>h2{
@@ -124,7 +119,7 @@ img{
 @media screen and (max-width: 1024px)
 {
   .container{
-    width: 60%;
+    width: 90%;
   }
 
   section>h2{

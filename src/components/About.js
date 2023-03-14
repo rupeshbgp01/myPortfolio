@@ -11,12 +11,20 @@ function About() {
             <h5>Get To Know</h5>
             <h2>About Me</h2>
             <div className="container about_container">
-                <div className="about_me" >
-                    <div className="about_me_img">
-                        <img src={me_img} alt="About img" />
+
+                <div className="about_me_container">
+                    <div className="about_me" >
+                        <div className="about_me_img">
+                            <img src={me_img} alt="About img" />
+                        </div>
                     </div>
+                    <a href="#contact" className="btn btn-primary" >Ler's Talk</a>
+
                 </div>
                 <div className="about_content">
+                    <p>
+                        Intend to built a career in an organisation where I can prove myself as an asset with my skill. Seeking a position to utilize my skils and abilities in the Information Technology Industry that offers professional growth while being resourceful, innovative and flexible.
+                    </p>
                     <div className="about_cards">
                         <article className="about_card">
                             <MdOutlineSchool className="about_icon" />
@@ -36,11 +44,9 @@ function About() {
                             <small>Divine Happy School, Bhagalpur, Bihar</small>
                         </article>
                     </div>
-                    <p>
-                        Intend to built a career in an organisation where I can prove myself as an asset with my skill. Seeking a position to utilize my skils and abilities in the Information Technology Industry that offers professional growth while being resourceful, innovative and flexible.
-                    </p>
 
-                    <a href="#contact" className="btn btn-primary" >Ler's Talk</a>
+
+
                 </div>
             </div>
         </section>

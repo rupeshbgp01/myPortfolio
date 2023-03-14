@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 35% 50% ;
     gap: 15%;
+    height: max-content;
 }
 
 .about_me{
@@ -17,6 +18,14 @@
     display: grid;
     place-items: center;
     
+}
+.about_me_container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .about_me_img{
@@ -94,6 +103,7 @@
   .about_me{
     width: 80%;
     margin: 2rem;
+    display: none;
   }
 
 }
@@ -106,6 +116,7 @@
   .about_me{
     width: 100%;
     margin: 0 auto 3rem;
+    display: none;
   }
 
   .about_cards{

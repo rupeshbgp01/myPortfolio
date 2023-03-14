@@ -6,10 +6,10 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-            <a href="#home"><h2>Rupesh Kumar</h2></a>
+            <a href="#home"><h2 className="footer__heading">Rupesh Kumar</h2></a>
             <div className="nav_link" >
                 <a href="#home">Home</a>
-                <a href="#about">About Me</a>
+                <a href="#about">About</a>
                 <a href="#skill">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
