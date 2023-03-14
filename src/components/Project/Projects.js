@@ -50,8 +50,8 @@ function Portfolio() {
                     HTML, CSS, Animation
                 </div>
                 <div className='project_btn'>
-                    <a href='https://github.com/Rupeshbgp01/PasswordGenerator' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
+                    <a href='https://github.com/Rupeshbgp01/Discord_Clone' className='btn'>Github Link</a>
+                    <a href=' https://rupeshbgp01.github.io/Discord_Clone/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
