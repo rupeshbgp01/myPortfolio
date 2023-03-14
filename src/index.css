@@ -51,7 +51,7 @@ h2{
 }
 
 section{
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: 100vh;
 }
 
@@ -112,7 +112,7 @@ img{
   }
 
   section>h2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -123,6 +123,6 @@ img{
   }
 
   section>h2{
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
   }
 }

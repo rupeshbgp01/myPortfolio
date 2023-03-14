@@ -10,6 +10,11 @@ import {DiDatabase} from 'react-icons/di'
 import {SiMongodb} from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
 import {FaBullseye} from 'react-icons/fa'
+import {SiTailwindcss} from 'react-icons/si'
+import {AiFillFileWord} from 'react-icons/ai'
+import {FaFilePowerpoint} from 'react-icons/fa'
+import {FaFileExcel} from 'react-icons/fa'
+import {BsFileEarmarkCodeFill} from 'react-icons/bs'
 
 
 
@@ -28,6 +33,7 @@ function Skills() {
                         <SkillCard title="CSS" tag={<DiCss3Full />} />
                         <SkillCard title="JavaScript" tag={<IoLogoJavascript />} />
                         <SkillCard title="React" tag={<FaReact />} />
+                        <SkillCard title="Tailwind" tag={<SiTailwindcss />} />
                     </div>
                 </div>
                 <div className="programming_skill skill_box">
@@ -46,6 +52,16 @@ function Skills() {
                         <SkillCard title="C++" tag={<FaBullseye />} />
                         <SkillCard title="JavaScript" tag={<IoLogoJavascript />} />
                         <SkillCard title="DSA" tag={<FaBullseye />} />
+                    </div>
+                </div>
+
+                <div className="programming_skill skill_box">
+                    <h3>Others</h3>
+                    <div className="skill_content">
+                        <SkillCard title="MS Word" tag={<AiFillFileWord />} />
+                        <SkillCard title="Powerpoint" tag={<FaFilePowerpoint />} />
+                        <SkillCard title="Excel" tag={<FaFileExcel />} />
+                        <SkillCard title="VS Code" tag={<BsFileEarmarkCodeFill/>} />
                     </div>
                 </div>
             </div>

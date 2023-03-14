@@ -105,6 +105,9 @@
     margin: 2rem;
     display: none;
   }
+  #talk_btn{
+    display: none;
+  }
 
 }
 
@@ -120,12 +123,17 @@
   }
 
   .about_cards{
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
 
   .about_content{
     text-align: center;
+  }
+  #talk_btn{
+    display: none;
   }
 }
 

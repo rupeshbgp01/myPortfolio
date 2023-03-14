@@ -18,7 +18,7 @@ function About() {
                             <img src={me_img} alt="About img" />
                         </div>
                     </div>
-                    <a href="#contact" className="btn btn-primary" >Ler's Talk</a>
+                    <a href="#contact" className="btn btn-primary" id="talk_btn" >Ler's Talk</a>
 
                 </div>
                 <div className="about_content">
@@ -29,18 +29,21 @@ function About() {
                         <article className="about_card">
                             <MdOutlineSchool className="about_icon" />
                             <h5>B-Tech</h5>
+                            <h6>(9.3 cgpa)</h6>
                             <small>Sant Longowal Institute of Engineering and Technology, Punjab</small>
                         </article>
 
                         <article className="about_card">
                             <FaSchool className="about_icon" />
                             <h5>12th Board</h5>
+                            <h6>(91 %)</h6>
                             <small>RamKrishna Vidya Mandir, Bhagalpur, Bihar</small>
                         </article>
 
                         <article className="about_card">
                             <MdSchool className="about_icon" />
                             <h5>10th Board</h5>
+                            <h6>(93 %)</h6>
                             <small>Divine Happy School, Bhagalpur, Bihar</small>
                         </article>
                     </div>

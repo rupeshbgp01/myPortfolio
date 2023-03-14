@@ -2,25 +2,32 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    padding: 4rem;
+    padding: 2rem;
     margin: auto;
+    height: max-content;
 }
 .project_box{
-    width: 70%;
+    width: 100%;
     padding: 10px;
     background-color: var(--blue-Varient);
     border-radius: 0 15px 0 15px;
     border: 1px solid var(--colour-primary);
     margin: auto;
+    text-align: center;
+}
+.project_box>h5{
+    font-weight: 600;
 }
 
 .project_img{
     padding: 10px;
     border-radius: 5px;
     width: 100%;
+   
 }
 .project_img img{
     border-radius: 5px;
+    border: 1px solid white;
 }
 .project_info{
     padding: 10px;
