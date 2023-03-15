@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css'
 import BTN from './BTN'
-import my_img from '../images/rupesh4.jpeg'
+import my_img from '../images/rupesh3.jpeg'
 import SOIALMEDIA from './SOCIAlMEDIA';
 
 

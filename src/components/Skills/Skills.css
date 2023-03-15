@@ -8,12 +8,7 @@
     gap: 2rem;
 }
 
-.skill_box{
-    background-color: var(--blue-Varient);
-    border-radius: 2rem;
-    padding: 2.4rem 5rem;
-    border: 1px solid transparent;
-}
+/*  */
 .skill_content{
     
     display: flex;

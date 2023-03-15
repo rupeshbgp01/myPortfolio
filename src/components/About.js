@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css';
-import me_img from "./images/rupesh2.jpeg";
+import me_img from "./images/rupesh4.jpeg";
 import { MdSchool } from "react-icons/md";
 import { MdOutlineSchool } from "react-icons/md";
 import { FaSchool } from "react-icons/fa";

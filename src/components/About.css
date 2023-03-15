@@ -47,8 +47,8 @@
 }
 
 .about_card{
-    background: var(--blue-Varient);
-    border: 1px solid transparent;
+    
+    border: 1px solid var(--colour-primary-varient);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;

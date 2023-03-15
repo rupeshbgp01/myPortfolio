@@ -2,7 +2,6 @@ import'./Contact.css'
 
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiOutlineMessage} from 'react-icons/ai'
-import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {useRef,useState} from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -58,12 +57,6 @@ function Contact() {
                         <a href='https://m.me/rupesh.chourasia.18' >Send a message</a>
                     </div>
 
-                    <div className="contact_option">
-                        <AiOutlineWhatsApp className='icon'/>
-                        <h4>Whatsapp</h4>
-                        <h5>+91-9162840955</h5>
-                        <a href='https://api.whatsapp.com/send?phone=+919162840955' >Send a message</a>
-                    </div>
                 </div>
 
 

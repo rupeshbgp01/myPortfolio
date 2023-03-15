@@ -4,18 +4,20 @@
     grid-template-columns: 30% 60%;
     gap: 10%;
     height: max-content;
+    
 }
 .contact_options{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 10px;
+    
 }
 
 .contact_option{
    padding: 1.2rem;
    text-align: center;
-   border: 1px solid transparent;
+   border: 1px solid white;
     background-color: var(--blue-Varient);
     transition: all 500ms ease;
 }

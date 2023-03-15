@@ -20,8 +20,8 @@ function Portfolio() {
                     HTML, CSS, Javascript
                 </div>
                 <div className='project_btn'>
-                    <a href='https://github.com/Rupeshbgp01/PasswordGenerator' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
+                    <a href='https://github.com/rupesh861999/PasswordGenerator' className='btn'>Github Link</a>
+                    <a href=' https://rupesh861999.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
@@ -35,8 +35,8 @@ function Portfolio() {
                     ReactJs, CSS
                 </div>
                 <div className='project_btn'>
-                    <a href='https://github.com/Rupeshbgp01/Resume-Builder' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
+                    <a href='https://github.com/rupesh861999/Resume-Builder' className='btn'>Github Link</a>
+                    <a href=' https://rupesh861999.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
@@ -50,8 +50,8 @@ function Portfolio() {
                     HTML, CSS, Animation
                 </div>
                 <div className='project_btn'>
-                    <a href='https://github.com/Rupeshbgp01/Discord_Clone' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/Discord_Clone/ 'className='btn btn-primary'>Live Demo
+                    <a href='https://github.com/rupesh861999/Discord_Clone' className='btn'>Github Link</a>
+                    <a href=' https://rupesh861999.github.io/Discord_Clone/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
@@ -67,8 +67,8 @@ function Portfolio() {
                     HTML, CSS
                 </div>
                 <div className='project_btn'>
-                    <a href='https://github.com/Rupeshbgp01/Innovation_Classes' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/Innovation_Classes/' className='btn btn-primary'>Live Demo</a>
+                    <a href='https://github.com/rupesh861999/Innovation_Classes' className='btn'>Github Link</a>
+                    <a href=' https://rupesh861999.github.io/Innovation_Classes/' className='btn btn-primary'>Live Demo</a>
                 </div>
             </div>
 
