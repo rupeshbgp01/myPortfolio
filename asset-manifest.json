@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.89666490.css",
-    "main.js": "/myPortfolio/static/js/main.48b81664.js",
+    "main.css": "/myPortfolio/static/css/main.5a2946e5.css",
+    "main.js": "/myPortfolio/static/js/main.f818be66.js",
     "static/js/787.1ed0c42c.chunk.js": "/myPortfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/cv.pdf": "/myPortfolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/project2.png": "/myPortfolio/static/media/project2.078d9f7f9d8c1e1d1581.png",
     "static/media/project1.png": "/myPortfolio/static/media/project1.0bfdc3c01c322387d531.png",
     "static/media/rupesh3.jpeg": "/myPortfolio/static/media/rupesh3.10c13ffd742d2ff07264.jpeg",
-    "static/media/rupesh2.jpeg": "/myPortfolio/static/media/rupesh2.e65013d5185a29318ff7.jpeg",
+    "static/media/Rupesh_Kumar.pdf": "/myPortfolio/static/media/Rupesh_Kumar.b2bd5788e9e576bead45.pdf",
+    "static/media/project4.png": "/myPortfolio/static/media/project4.257e29cf3c24d22b1aa6.png",
+    "static/media/rupesh4.jpeg": "/myPortfolio/static/media/rupesh4.e4e1f7ff9076f2fb7ec4.jpeg",
+    "static/media/project3.png": "/myPortfolio/static/media/project3.50eb5eab52ac23a9261b.png",
     "index.html": "/myPortfolio/index.html",
-    "main.89666490.css.map": "/myPortfolio/static/css/main.89666490.css.map",
-    "main.48b81664.js.map": "/myPortfolio/static/js/main.48b81664.js.map",
+    "main.5a2946e5.css.map": "/myPortfolio/static/css/main.5a2946e5.css.map",
+    "main.f818be66.js.map": "/myPortfolio/static/js/main.f818be66.js.map",
     "787.1ed0c42c.chunk.js.map": "/myPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89666490.css",
-    "static/js/main.48b81664.js"
+    "static/css/main.5a2946e5.css",
+    "static/js/main.f818be66.js"
   ]
 }
