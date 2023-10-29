@@ -21,7 +21,7 @@ function Portfolio() {
                 </div>
                 <div className='project_btn'>
                     <a href='https://github.com/rupeshbgp01/PasswordGenerator' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
+                    <a href=' https://rupeshbgp01.github.io/password_generator/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function Portfolio() {
                 </div>
                 <div className='project_btn'>
                     <a href='https://github.com/rupeshbgp01/Resume-Builder' className='btn'>Github Link</a>
-                    <a href=' https://rupeshbgp01.github.io/PasswordGenerator/ 'className='btn btn-primary'>Live Demo
+                    <a href=' https://rupeshbgp01.github.io/Resume-Builder/ 'className='btn btn-primary'>Live Demo
                     </a>
                 </div>
             </div>
